@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useState, useEffect } from './node_modules/react';
+import { useSelector, useDispatch } from './node_modules/react-redux';
 import { START, ADD_TODO, REMOVE_TDDO } from '../../actionTypes';
 
 function TodosList(props) {
